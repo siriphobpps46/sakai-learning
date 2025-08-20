@@ -19,6 +19,7 @@ export default function Home() {
               <a href="#contact" className="text-slate-600 hover:text-blue-600 transition-colors">Contact</a>
             </div>
             <div className="flex items-center space-x-4">
+              <a href="/dashboard" className="px-4 py-2 text-slate-600 hover:text-blue-600 transition-colors">Dashboard</a>
               <button className="px-4 py-2 text-slate-600 hover:text-blue-600 transition-colors">Sign In</button>
               <button className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
                 Get Started
@@ -43,9 +44,9 @@ export default function Home() {
               Create engaging content, track progress, and foster collaboration in a seamless digital environment.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button className="px-8 py-4 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-all transform hover:scale-105 font-semibold text-lg">
-                Start Learning Today
-              </button>
+              <a href="/dashboard" className="px-8 py-4 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-all transform hover:scale-105 font-semibold text-lg text-center">
+                Go to Dashboard
+              </a>
               <button className="px-8 py-4 border-2 border-slate-300 text-slate-700 rounded-lg hover:border-blue-600 hover:text-blue-600 transition-all font-semibold text-lg">
                 Watch Demo
               </button>
